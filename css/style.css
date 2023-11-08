@@ -1,0 +1,597 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Josefin+Sans:ital@1&family=Lato:ital,wght@0,300;0,400;1,400&family=Montserrat&family=Pacifico&family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.font-1{
+    font-family: 'Montserrat', sans-serif;
+}
+ .hd{
+    background-color: rgb(6, 1, 45);
+    padding:1px;
+    font-size: 20px;
+}
+.ri{
+    display: flex;
+    margin-left: 170vh;
+    margin-bottom: 14px;
+    margin-top: -20px;
+    color: white;
+}
+.hd ul{
+    list-style-type: none;
+}
+.hd ul li a{
+    text-decoration: none;
+    color: white;
+}
+.rig{
+    margin-left: 20px;
+}
+.righ{
+    margin-left: 20px;
+}
+.navigation{
+    width:100%;
+	float:right;
+    margin-top: 13px;
+}
+.navigation img{
+    width: 50vh;
+    margin: 25px 0 0px 70px;
+}
+.navigation ul{
+    float: right;
+    margin: 15px 80px 0 0 ;
+    font-weight: 600;
+}
+.navigation li{
+    float: left;
+    list-style-type: none;
+}
+.navigation li a{
+    float: left;
+    padding: 1rem;  
+    text-decoration: none;
+    color: rgb(6, 1, 45);
+    font-size: 20px;
+}
+.butt{
+    margin: 4px 0px 0px 20px;
+    padding: 15px 65px 15px 65px;
+    background-color:rgb(60,80, 155);
+    color: white;
+} 
+.banner{
+    background-image:url("../images/banner.png.webp");
+    background-position: center;
+    background-size: cover;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+}
+.banner-para{
+    font-weight: 1000;
+    font-size: 100px;
+    color: rgb(60,80, 155);
+    padding: 150px 0px 0 108px;
+}
+.banner button{
+    margin: 4px 0px 0px 110px;
+    padding: 15px 65px 15px 65px;
+}
+.banner-butt1{
+    background-color:rgb(60,80, 155);
+    color: white;
+}
+.banner-butt2 button{
+    background-color: white;
+    color: black;
+    margin: 13px 0px 0 330px;
+}
+.scholarship{
+    display: flex;
+    background-color: aliceblue;
+}
+.scholar{
+    padding: 70px 12px 70px 12px;
+    margin: 0 0 0 22px;
+}
+.scholar-1{
+    display: flex;
+    background-color: orange;
+    margin: 0 0 0 10vh;   
+    border: 3px;
+    border-radius: 8px;
+}
+.scholar-2{
+    display: flex;
+    background-color: plum;
+    border: 3px;
+    border-radius: 8px;
+}
+.scholar-3{
+    display: flex;
+    background-color: skyblue;
+    border: 3px;
+    border-radius: 8px;
+}
+.scholar-para{
+    padding: 0px 90px 0px 80px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 38px 0px 0 -30px;
+}
+.scholar-icon{
+    background-color: white;
+    font-size: 40px;
+    margin: 44px 0px 45px 45px;
+    border: 8px;
+    border-radius: 90px;
+    padding: 10px;
+    
+}
+.programs-head{
+    text-align: center;
+}
+.program{
+    background-color: aliceblue;
+    margin: 60px 28%;
+}
+.program ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+   
+}
+.program ul li{
+    margin: 0 auto;
+}
+.program ul li a{
+    text-decoration: none;
+    color: rgb(6, 1, 45);
+    font-family: 'Montserrat', sans-serif;
+}
+.program ul li a:hover{
+    background-color: skyblue;
+}
+.apply{
+    width: 100%;
+}
+.courses{
+    display: flex;
+    margin:0px 10%;
+}
+.course-1{
+    background-color: aliceblue;
+    margin: 0px 30px;
+    font-size: 25px;
+}
+.course-1 img{
+    width: 100%;
+
+}
+.font-1{
+    font-family: 'Young Serif', serif;
+    margin: 20px 30px;
+}
+.agri{
+    margin: 20px 30px;
+}
+.course-butt{
+    margin: 30px 0px 30px 90px;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: rgb(0, 200, 255);
+    background-color: aliceblue;
+    text-decoration: none;
+    color: rgb(0, 200, 255);
+    padding: 12px;
+    font-weight: 500;
+}
+.box{
+    padding: 80px 0;
+}
+.butt-1{
+    margin-top: 50px;
+}
+.all-course{
+    text-align: center;
+    margin: 20vh 40%;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: rgb(6, 1, 45);
+    color: rgb(6, 1, 45);
+    font-size: 25px;
+    padding: 20px;
+}
+.butt-2{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.latest-course{
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.image-1{
+    width: 60%;
+    background-image: url(../images/1.png.webp);
+    background-size: cover;
+    
+}
+.bg-color{
+    background-color: rgba(6, 1, 45, 0.76);
+    padding: 1px 0 10px 0 ;
+}
+.image-2 {
+    width: 40%;
+    /* background-image: url(../images/2s.png.webp); */
+    background-size: cover;
+    background-position: center;
+} 
+.image-2 img{
+    width: 100%;
+    height: 100%;
+}
+.marg{
+    margin: 40px 45px;
+}
+.mar{
+    margin-top: 150px;
+}
+.course-s{
+    font-size: 30px;
+    margin-bottom: 120px;
+}
+.course-s h1{
+    margin-bottom: 105px;
+}
+.course-2{
+    display: flex;
+    width: 100%;
+}
+.course-b{
+    border: 2px solid;
+    border-color: rgb(0, 200, 255);
+    text-decoration: none;
+    color: rgb(0, 200, 255);
+    padding: 12px;
+}
+ .recent-event{
+    text-align: center;
+    font-size: 30px;
+ }
+.event{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid;
+    border-color: lightslategrey;
+    border-radius: 6px;
+    margin: 0% 15% 3% 15%;
+}
+
+
+.date{
+    border: 1px solid;
+    border-color: lightslategrey;
+    background-color: lightseagreen;
+    font-weight: bolder;
+    padding: 45px;
+    color: aliceblue;
+}
+.event-1{
+    margin: 25px 0px 0 115px;
+}
+.bold{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.time-1{
+    display: flex;
+}
+.time-1 p{
+    padding: 0 20px;
+}
+.about{
+    background-color: rgb(6, 1, 45);
+    color: white;
+}
+.updates{
+    display: flex;
+    width: 100%;
+}
+.updates h2{
+    font-size: 30px;
+}
+.update-left{
+    width: 60%;
+    padding: 50px 0px 30px 60px;
+}
+.update-left input{
+    padding: 20px 33vh;
+}
+.update-left a{
+    background-color: cornflowerblue;
+    padding: 19px 35px 21px;
+    margin: 0px 0px 0px -35px;
+    text-decoration: none;
+    color: white;
+}
+.update-right{
+    width: 40%;
+    padding: 50px 0 0 40px;
+}
+.right-icons{
+    margin: 43px 0px 0 30px;
+}
+.right-icons i{
+    padding: 0px 60px 0 0;
+    font-size: 50px;
+}
+.update-link{
+    display: flex;
+    margin: 5% 0 0 6%;
+}
+.about-us{
+    font-size: 25px;
+}
+.about-us li{
+    list-style-type: none;
+    margin: 30px 136px 0 -40px;
+    color: darkgray;
+} 
+@media(min-width:5px) and (max-width:768px){
+    .gmail{
+        margin: 0 0 0 20px;
+    }
+    .ri{
+        display: flex;
+        margin: 15px 0px 15px 55px;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation img{
+        width: 30vh;
+    }
+    .navigation ul{
+        font-weight: 600;
+        display: grid;
+        float: none;
+        text-align: center;
+        margin: 0 0 0 100px;
+    }
+    .butt{
+        margin: 0px 80px 0 -30px;
+    }
+    .banner{
+        margin: 55vh 0 0 0;
+    }
+    .banner-para{
+        font-size: 30px;
+        padding: 8px 0 0 25px;
+    }
+    .banner button{
+        margin: 20px 0 0 30px;
+    }
+    .banner-butt2{
+        margin-left: 80px;
+    }
+    .scholarship{
+        display: block;
+        margin-top: 80px;
+    }
+    .scholar{
+        margin: 0;
+    }
+    .scholar-1{
+        margin: 0;
+    }
+    .scholar-icon{
+        font-size: 25px;
+        margin: 46px 0px 36px 30px;
+    }
+    .program{
+        margin: 56px 46px 56px 56px;
+    }
+    .program ul{
+        display: block;
+        padding: 5px 0px 24px 40px;
+    }
+    .program ul li{
+        margin-top: 30px;
+    }
+    .program ul li a:hover{
+        background-color: skyblue;
+    }
+    .courses{
+        display: block;
+    }
+    .course-1{
+        margin: 60px 0 0 0;
+    }
+    .course-butt{
+        margin-left:75px;
+    }
+    .all-course{
+        margin: 50px;
+        font-size: 20px;
+    }
+    .latest-course{
+        display: block;
+    }
+    .course-s{
+        font-size: 20px;
+    }
+    .image-1{
+        width: 100%;
+    }
+    .course-2{
+        display: block;
+        font-size: 20px;
+    }
+    .course-left{
+        padding-top: 46px;
+    }
+    .recent-event{
+        font-size: 20px;
+    }
+    .event{
+        display: block;
+        font-size: 20px;
+    }
+    .event-1{
+        margin: 25px 0 0 0 ;
+    }
+    .event-1 p{
+        font-size: 20px;
+    }
+    .time-1{
+        display: block;
+    }
+    .updates{
+        display: block;
+    }
+    .updates h2{
+        margin: 0;
+    }
+    .update-left{
+        width: 100%;
+    }
+    .update-left input{
+        padding: 15px 0px 15px 60px;
+        margin: 15px 0 50px 5px;
+    }
+    .update-left a{
+        margin: 0;
+    }
+    .update-right{
+        width: 100%;
+    }
+    .update-right h2{
+        margin: 0 0 0 25px
+    }
+    .right-icons i{
+        padding: 0 10px 0 0;
+    }
+    .update-link{
+        display: block;
+        margin:56px 0px 0 65px;
+    }
+    .scholar-para{
+        padding: 0;
+        margin-left: 10px;
+    }
+}
+@media(min-width:768px) and (max-width:993px){ 
+    .ri{
+        margin: -26px 45px 0 0;
+        float: right;
+    }
+    .navigation img{
+        width: 60vh;
+    }
+    .navigation ul{
+        width: 75%;
+    }
+    .butt{
+        margin: 30px 0px 0 13vh;
+    }
+    .banner{
+        margin-top: 34vh;
+    }
+    .banner-para{
+        font-size: 50px;
+    }
+    .scholarship{
+        display: block;
+    }
+    .scholar{
+        margin: 0;
+        padding: 1px 0 20px 0;
+    }
+    .scholar-para{
+        margin:55px 0 0 0 ;
+        display: flex;
+    }
+    .scholar-1{
+        margin: 50px 100px 0px; 
+    }
+    .scholar-2{
+        margin: 20px 100px;
+    }
+    .scholar-3{
+        margin: 20px 100px;
+    }
+    .s{
+        padding: 0 10px 0 0;
+    }
+    .program{
+        margin: 0 16px 0 16px;
+    }
+    .courses{
+        margin: 0;
+    }
+    .course-1 img{
+        width: 100%;
+    }
+    .box{
+        font-size: 18px;
+        padding: 15px 0 35px 0;
+    }
+    .font-1{
+        font-weight: bold;
+    }
+    .course-butt{
+        font-size: 13px;
+        margin: 0 0 0 40px;
+    }
+    .all-course{
+        font-size: 15px;
+        margin: 50px 30vh 50px 30vh;
+        padding: 15px 40px 15px 40px;
+    }
+    .course-s{
+        font-size: 20px;
+    }
+    .course-2{
+        font-size: 20px;
+    }
+    .recent-event{
+        font-size: 20px;
+    }
+    .event{
+        font-size: 20px;
+    }
+    .bold{
+        font-size: 20px;
+    }
+    .event-1{
+        font-size: 20px;
+        margin: 0;
+    }
+    .updates{
+        display: block;
+    }
+    .update-left input{
+        padding: 20px 125px;
+    }
+    .update-left a{
+        margin-left: 30px;
+    }
+    .right-icons{
+        display: flex;
+    }
+    .update-link{
+        display: block;
+    }
+}
